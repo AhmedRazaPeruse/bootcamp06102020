@@ -11,6 +11,8 @@ function App() {
 
     <Lunch Dish = "Student Biryani" Sweet = "Dilpasand Rabri"></Lunch>
 
+    <Lunch Dish = "Javeed Nihari" Sweet = "Dilpasand Kheer"></Lunch>
+
     <Voilet></Voilet>
     <br/>
     </div>
