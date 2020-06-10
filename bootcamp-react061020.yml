@@ -39,5 +39,5 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build bootcamp-react060920.surge.sh --token ${{ secrets.Surge_Token }}
+      run: surge ./build bootcamp-react061020.surge.sh --token ${{ secrets.Surge_Token }}
       
