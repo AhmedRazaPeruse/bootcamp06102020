@@ -2,19 +2,17 @@ import React from 'react';
 import './App.css';
 import Car from './vehicle.js';
 import Lunch from './food';
-import Voilet from './color'
+import Model from './assemble';
+import Voilet from './color';
 
 function App() {
   return (
     <div>
-    <Car CarName = "Toyota Aqua" BikeName = "Honda 125"></Car>
+    <Car CarName = "Aqua" BikeName = "Honda"></Car>
 
-    <Lunch Dish = "Student Biryani" Sweet = "Dilpasand Rabri"></Lunch>
+    <Lunch Dish = "Biryani" Sweet = "Rabri"></Lunch>
 
-    <Lunch Dish = "Javeed Nihari" Sweet = "Dilpasand Kheer"></Lunch>
-
-    <Voilet></Voilet>
-    <br/>
+    <Model CarName = "Aqua" YearsName = "2018" CompanyName = "Toyota"></Model>
     </div>
     
   );
